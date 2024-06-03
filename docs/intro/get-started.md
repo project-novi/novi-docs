@@ -65,7 +65,7 @@ rye run novi-plugin-host
 
 ### novi-web
 
-::: warn
+::: warning
 This is unfinished and only has **Chinese** UI for now.
 :::
 
