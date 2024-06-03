@@ -7,3 +7,4 @@ This section explains the concepts behind Novi.
 - [Subscribe](./subscribe): How to subscribe to object events.
 - [Imply Rule](./imply): Specify rules to be enforced on objects.
 - [Hook](./hook): Extend Novi with hooks.
+- [Permission](./permission): The permission system of Novi.

@@ -30,9 +30,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/assets/logo.svg',
-    nav: [
-      { text: 'Home', link: '/' },
-    ],
+    nav: [{ text: 'Home', link: '/' }],
 
     sidebar: [
       {
@@ -50,7 +48,8 @@ export default defineConfig({
           { text: 'Filter', link: '/concepts/filter' },
           { text: 'Subscribe', link: '/concepts/subscribe' },
           { text: 'Imply Rules', link: '/concepts/imply' },
-          { text: 'Hook', link: '/concepts/hook' }
+          { text: 'Hook', link: '/concepts/hook' },
+          { text: 'Permission', link: '/concepts/permission' }
         ]
       },
       {

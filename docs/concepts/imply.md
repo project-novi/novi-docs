@@ -36,4 +36,6 @@ A real-world example: content is automatically assigned with *general* rating (`
 
 ## Conflict Resolution
 
-We can easily create conflicting imply rules. For example, `a => -a b` and `b => a`. These two rules can run forever. To prevent this, Novi will apply each rule *AT MOST ONCE*.
+We can easily create conflicting imply rules. For example, the two rules `a => -a b` and `b => a` can run forever since one cancels the effect of the other.
+
+To resolve the conflict, Novi runs each imply rule at most once. To elaborate, implication rules gets applied recursively, where each rule is applied at most once.
