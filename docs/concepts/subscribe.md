@@ -18,4 +18,4 @@ Here's another example. I want to automatically add a `dog` tag to every image o
 @=image corgi -dog
 ```
 
-And for each matching object, we add a `dog` tag to it. However, this is not the best practice since we can achieve the same result using a [imply rule](./imply).
+And for each matching object, we add a `dog` tag to it. However, this is not the best practice since we can achieve the same result using an [imply rule](./imply).
