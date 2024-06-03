@@ -62,7 +62,7 @@ However, when it comes down to actual implementation, we may find it counter-int
 @title
 ```
 
-But that'll notify me EVERY TIME when a object containing `title` tag is created / updated / deleted. Luckily, we have three new operators to help us out:
+But that'll notify me **every time** when a object containing `title` tag is created / updated / deleted. Luckily, we have three new operators to help us out:
 
 - `~tag`: Listen to the tag's creation / modification / deletion.
 - `!tag`: Listen to the tag's deletion.
@@ -74,4 +74,4 @@ These operators can be combined with other operators:
 ~@title/~@res corgi -(~meme)
 ```
 
-Event filters are only useful when used with [subscribe](./subscribe). They are supposed to be used in normal object queries.
+Event filtering operators are only useful when used with [subscribe](./subscribe). They are not supposed to be used in normal object queries.
