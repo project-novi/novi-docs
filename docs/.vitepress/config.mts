@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Novi',
-  description: 'A VitePress Site',
+  description: 'A novel way to navigate anything',
   head: [
     [
       'link',

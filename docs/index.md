@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "Novi"
-  text: "Seek the future."
   tagline: A <u>no</u>vel way to na<u>vi</u>gate anything.
   actions:
     - theme: brand
