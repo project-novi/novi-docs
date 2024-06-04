@@ -49,6 +49,7 @@ export default defineConfig({
           { text: 'Subscribe', link: '/concepts/subscribe' },
           { text: 'Imply Rules', link: '/concepts/imply' },
           { text: 'Hook', link: '/concepts/hook' },
+          { text: 'Function', link: '/concepts/function' },
           { text: 'Permission', link: '/concepts/permission' },
           { text: 'Session', link: '/concepts/session' }
         ]
