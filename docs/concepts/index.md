@@ -8,3 +8,4 @@ This section explains the concepts behind Novi.
 - [Imply Rule](./imply): Specify rules to be enforced on objects.
 - [Hook](./hook): Extend Novi with hooks.
 - [Permission](./permission): The permission system of Novi.
+- [Session](./session): API sessions.
