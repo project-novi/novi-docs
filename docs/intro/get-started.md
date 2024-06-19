@@ -30,7 +30,7 @@ cd novi
 cargo build --release
 ```
 
-Then create a configuration file named `server.yaml`. Here's a template:
+Then create a configuration file named `config.yaml`. Here's a template:
 
 ```yaml
 database:
